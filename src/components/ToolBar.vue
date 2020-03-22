@@ -1,8 +1,8 @@
 <template>
   <div>
-    <router-view to="/news">News</router-view>
-    <router-view to="/ask">Ask</router-view>
-    <router-view to="/jobs">Jobs</router-view>
+    <router-link to="/news">News</router-link>
+    <router-link to="/ask">Ask</router-link>
+    <router-link to="/jobs">Jobs</router-link>
   </div>
 </template>
 
